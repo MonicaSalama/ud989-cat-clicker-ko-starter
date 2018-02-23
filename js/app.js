@@ -18,6 +18,10 @@ var ViewModel = function (){
         }
         return "Teen";
     }, this);
+
+    this.nickNames = ko.observableArray([
+      'Tabtab', 'Temon', 'Bomba'
+    ]);
 }
 
 ko.applyBindings(new ViewModel());
